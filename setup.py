@@ -8,7 +8,7 @@ README = (HERE / "README.md").read_text()
 setup(
     name="lazop-sdk",
     packages=["lazop_sdk"],
-    version="1.0.2",
+    version="1.0.3",
     description="Lazada Official SDK",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -19,7 +19,8 @@ setup(
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.10",
     ],
     install_requires=["requests"],
+    python_requires='>=3.10',
 )
