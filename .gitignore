@@ -4,3 +4,5 @@ build/
 dist/
 
 lazop_sdk.egg-info/
+
+.DS_Store

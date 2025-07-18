@@ -79,8 +79,6 @@ def sign(secret,api, parameters):
 def mixStr(pstr):
     if(isinstance(pstr, str)):
         return pstr
-    elif(isinstance(pstr, unicode)):
-        return pstr.encode('utf-8')
     else:
         return str(pstr)
 
